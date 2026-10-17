@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be6dd27f2c5a36459a6706a0e005471, type: 3}
+  m_Name: ReceptionistDialogueDay
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: First day at work, huh?
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: 
+      requiredValue: 0
+    events: []
+    nextLineIndex: 1
+  - dialogueType: 0
+    speakerName: ARJUN
+    text: Yeah, i will get to work i don't want to be late
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: 
+      requiredValue: 0
+    events: []
+    nextLineIndex: 2
+  - dialogueType: 0
+    speakerName: Receptionist
+    text: Sure, Good Luck!
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: 
+      requiredValue: 0
+    events: []
+    nextLineIndex: 3
+  - dialogueType: 0
+    speakerName: ARJUN
+    text: ThankYou! Have a great day
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: 
+      requiredValue: 0
+    events: []
+    nextLineIndex: -1

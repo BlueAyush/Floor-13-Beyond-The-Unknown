@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be6dd27f2c5a36459a6706a0e005471, type: 3}
+  m_Name: LetsGetToWorkMonologue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - dialogueType: 1
+    speakerName: 
+    text: Alright, let's get ready for work. Don't want to be late.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: 
+      requiredValue: 0
+    events:
+    - eventType: 1
+      flagName: 
+      flagValue: 0
+      objectiveText: Leave The Building And Go To Work
+    nextLineIndex: -1

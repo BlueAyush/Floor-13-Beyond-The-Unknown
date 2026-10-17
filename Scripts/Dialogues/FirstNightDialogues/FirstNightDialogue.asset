@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be6dd27f2c5a36459a6706a0e005471, type: 3}
+  m_Name: FirstNightDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: Hey! You must be the new guy, right? Your boss told me you'd be coming
+      tonight.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 1
+  - dialogueType: 0
+    speakerName: ARJUN
+    text: Yeah, that's me. Sorry I'm a little late.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 2
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: Haha, don't worry about it. I've just been waiting here to hand you your
+      apartment keys.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 3
+  - dialogueType: 0
+    speakerName: ARJUN
+    text: Oh, thanks. I appreciate it.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 4
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: No problem. Here you go. Apartment 401.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 5
+  - dialogueType: 0
+    speakerName: ARJUN
+    text: Four-oh-one. Got it.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 6
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: Yep, fourth floor. The elevator's right over there. Shouldn't be hard to
+      find your way around.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 7
+  - dialogueType: 0
+    speakerName: ARJUN
+    text: Alright. First time living this far from home, so hopefully I don't get
+      lost on the first night.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 8
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: Haha, you'll be fine. You'll get used to the place.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 9
+  - dialogueType: 0
+    speakerName: ARJUN
+    text: Hope so. I've been working from home until now, so this whole office thing
+      is new to me.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 10
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: Oh, really? Well, welcome to the new routine, then!
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 11
+  - dialogueType: 0
+    speakerName: ARJUN
+    text: Yeah, guess so. Anyway, thanks for waiting around for me.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 12
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: Don't mention it.  I was told to make sure you got the keys. I've done
+      my part now, so I'm heading out soon.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 13
+  - dialogueType: 0
+    speakerName: ARJUN
+    text: Fair enough. Have a good night!
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 14
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: You too! And good luck with all those boxes. Looks like you've got your
+      work cut out for you.
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 15
+  - dialogueType: 0
+    speakerName: ARJUN
+    text: Haha, yeah. See you around!
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events: []
+    nextLineIndex: 16
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: See you, man!
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 0
+    events:
+    - eventType: 0
+      flagName: gotkeys
+      flagValue: 1
+      objectiveText: 
+    - eventType: 1
+      flagName: 
+      flagValue: 0
+      objectiveText: Deliver Boxes To Your Apartment (401)
+    - eventType: 0
+      flagName: TalkedToReceptionist
+      flagValue: 1
+      objectiveText: 
+    nextLineIndex: -1
+  - dialogueType: 0
+    speakerName: RECEPTIONIST
+    text: See you, man!
+    voiceClip: {fileID: 0}
+    choices: []
+    condition:
+      flagName: TalkedToReceptionist
+      requiredValue: 1
+    events: []
+    nextLineIndex: -1
